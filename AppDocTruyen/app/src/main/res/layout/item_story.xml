@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="?android:selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/imgAvatar"
+       android:layout_width="100dp"
+       android:layout_height="100dp" />
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:ellipsize="marquee"
+            android:textColor="@color/teal900"
+            android:singleLine="true"
+            android:fontFamily="serif"
+            android:id="@+id/txtNameStory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cóc Kiện Trời"
+            android:textSize="22sp" />
+        <TextView
+            android:textColor="@color/gray600"
+            android:lines="1"
+            android:textSize="16sp"
+            android:id="@+id/txtStyle"
+            android:text="truyện cổ tích"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
